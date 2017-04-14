@@ -102,4 +102,4 @@ function oc(a){function b(){if(!d.calledRun&&(d.calledRun=!0,!la)){La||(La=!0,Fa
 setTimeout(function(){setTimeout(function(){d.setStatus("")},1);b()},1)):b())}}d.run=d.run=oc;function pc(a,b){if(!b||!d.noExitRuntime){if(!d.noExitRuntime&&(la=!0,u=void 0,Fa(Ja),d.onExit))d.onExit(a);ca&&process.exit(a);d.quit(a,new ja(a))}}d.exit=d.exit=pc;var rc=[];
 function D(a){void 0!==a?(d.print(a),d.k(a),a=JSON.stringify(a)):a="";la=!0;var b="abort("+a+") at "+xa()+"\nIf this abort() is unexpected, build with -s ASSERTIONS=1 which can give more information.";rc&&rc.forEach(function(c){b=c(b,a)});throw b;}d.abort=d.abort=D;if(d.preInit)for("function"==typeof d.preInit&&(d.preInit=[d.preInit]);0<d.preInit.length;)d.preInit.pop()();var qc=!0;d.noInitialRun&&(qc=!1);oc();this.re2={};var sc=new Uint8Array(1024);this.re2.validate=function(a){ua(a,sc,0,1024);return d._validate(sc)};
 
-export const re2 = this.re2;
+export const validate = this.re2.validate;
