@@ -1,6 +1,6 @@
 {
   "name": "@ukyo/re2-validator",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "re2 validator",
   "repository": {
     "url": "https://github.com/ukyo/re2-validator"
