@@ -1,5 +1,7 @@
 # re2-validator
 
+re2-validator is generated with Emscripten(+ WebAssembly).
+
 ## Install
 
 ```
@@ -17,3 +19,7 @@ module.ready.then(() => {
   console.log(module.validate('(?!hello!)')); // false
 });
 ```
+
+## Example
+
+see: https://ukyo.github.io/re2-validator/example/
