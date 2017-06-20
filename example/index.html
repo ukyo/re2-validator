@@ -4,11 +4,8 @@
     <title>re2.js</title>
   </head>
   <body>
+    <script src="./wasm-utils.js"></script>
+    <script>const wasmCacheVersion = 1;</script>
     <script src="./re2.js"></script>
-    <script>
-      ___re2.ready.then(() => {
-        console.log(___re2.validate("hogehoge"));
-      })
-    </script>
   </body>
 </html>
